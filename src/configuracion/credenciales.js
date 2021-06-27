@@ -1,8 +1,8 @@
 module.exports ={
     configuracion_mysql:{
-        host:'127.0.0.1',
-        user:'root',
-        password:'123abc',
+        host:'empleados.cd2vtpwynzna.us-east-1.rds.amazonaws.com',
+        user:'admin',
+        password:'titinMEDINA21*',
         database:'empleados'
     }
 }
