@@ -1,0 +1,114 @@
+<%- include('parcial/_cabecera') %>
+
+  <div class="container mt-4 text-center">
+
+    <form action="/" method="POST" class="mt-3">
+      <div class="from-group">
+        <h6><span class="icon-Lupa"></span> empleado </h6>
+        <input type="text" class="form-control" name="nombre_completo" placeholder="Ingrese nombre del empleado">
+        <button type="submit" class="btn btn-success bt-sm mt-3">Buscar</button>
+      </div>
+    </form>
+
+
+  </div>
+
+
+  <% if(empleados.length>0 || jefes.length>0){ %>
+
+    <div class="container mt-3 mb-5">
+
+      <div class="row">
+
+        <%for(let empleado of empleados){%>
+
+
+          <div class="col-md-4">
+            <div class="card mt-3 text-center mb-5">
+              <div class="card-header bg-primary text-white">
+               <h5><%= empleado.nombre_completo.toUpperCase() %></h5>
+              </div>
+             <div class="card-body">
+                     <p>Función: <br> <%= empleado.funcion %></p>
+                 <a href="/set_boss/<%= empleado.nombre_completo %>" class="btn btn-success btn-sm">Cambiar a jefe</a>
+                 <a href="/editar/<%= empleado.nombre_completo %>" class="btn btn-secondary btn-sm">Modificar</a>
+                 <a href="/confirmar_eliminar/<%= empleado.nombre_completo%>" class="btn btn-danger btn-sm">Eliminar</a>
+             </div>
+            </div>
+        </div>
+
+
+        <% }  %>
+
+
+        <%for(let jefe of jefes){%>
+
+
+          <div class="col-md-4">
+            <div class="card mt-3 text-center mb-5">
+              <div class="card-header bg-success text-white">
+               <h5><%= jefe.nombre_completo.toUpperCase() %></h5>
+              </div>
+             <div class="card-body">
+              <h3>JEFE</h3>
+                     <p>Función: <br> <%= jefe.funcion %></p>
+                 <a href="/set_employee/<%= jefe.nombre_completo %>" class="btn btn-primary btn-sm">Cambiar a empleado</a>
+                 <a href="/editar/<%= jefe.nombre_completo %>" class="btn btn-secondary btn-sm">Modificar</a>
+                 <a href="/confirmar_eliminar/<%= jefe.nombre_completo%>" class="btn btn-danger btn-sm">Eliminar</a>
+             </div>
+            </div>
+        </div>
+
+
+        <% }  %>
+
+
+
+                    <div class="col-md-3">
+                      <div class="card text-center m-3">
+                        <div class="card-body">
+
+
+                          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#guardar">
+                            <h5>Agregar un empleado</h5>
+                          </button>
+
+                        </div>
+                      </div>
+                    </div>
+
+      </div>
+
+    </div>
+
+
+
+    <% } else { %>
+
+      <div class="container mt-5 text-center">
+        <h5>No tiene empleados agregados</h5>
+
+        <button type="button" class="btn btn-success mt-3" data-toggle="modal" data-target="#guardar">
+          Agregar un empleado
+        </button>
+
+      </div>
+
+      <% } %>
+
+
+
+        <div class="modal fade" id="guardar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true" data-backdrop="static">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body text-center">
+
+                <%- include('empleados_guardar') %>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <%- include('parcial/_footer') %>

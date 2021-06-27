@@ -1,0 +1,34 @@
+<%- include('parcial/_cabecera') %>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h4>Modificar empleado</h4>
+                        <form action="/editar/<%= datos[0].nombre_completo %>" method="POST">
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="nombre_completo"
+                                    placeholder="Nombre completo" value="<%= datos[0].nombre_completo %>" autofocus
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea cols="30" rows="10" name="funcion" class="form-control"
+                                    placeholder="Función"><%= datos[0].funcion %></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success form-control">Guardar</button>
+                                <a href="/" class="btn btn-secondary form-control mt-2">Cancelar</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<%- include('parcial/_footer') %>
