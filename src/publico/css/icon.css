@@ -1,0 +1,275 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?vg5vcr');
+  src:  url('../font/icomoon.eot?vg5vcr#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?vg5vcr') format('truetype'),
+    url('../font/icomoon.woff?vg5vcr') format('woff'),
+    url('../font/icomoon.svg?vg5vcr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hr .path1:before {
+  content: "\e900";
+  color: rgb(33, 150, 243);
+}
+.icon-hr .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-hr .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-hr .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-hr .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-hr .path6:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-hr .path7:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-hr .path8:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-AgendaContacto:before {
+  content: "\e90a";
+}
+.icon-AtencionCliente:before {
+  content: "\e90b";
+}
+.icon-Avance:before {
+  content: "\e90c";
+}
+.icon-Bhuo:before {
+  content: "\e90d";
+}
+.icon-BolsaDeDinero:before {
+  content: "\e90e";
+}
+.icon-BombilloEncendido:before {
+  content: "\e90f";
+}
+.icon-Botiquin:before {
+  content: "\e910";
+  color: #0091ea;
+}
+.icon-CadenaMoto:before {
+  content: "\e911";
+}
+.icon-Calculadora:before {
+  content: "\e912";
+}
+.icon-CandadoAbierto:before {
+  content: "\e913";
+}
+.icon-CandadoCerrado:before {
+  content: "\e914";
+}
+.icon-CarritoDeCompras:before {
+  content: "\e915";
+}
+.icon-CascoMoto:before {
+  content: "\e916";
+}
+.icon-Chat:before {
+  content: "\e917";
+}
+.icon-ComputadorEstadistico:before {
+  content: "\e918";
+}
+.icon-Diente:before {
+  content: "\e919";
+}
+.icon-DineroCelular:before {
+  content: "\e91a";
+}
+.icon-Email:before {
+  content: "\e91b";
+}
+.icon-Estadistica:before {
+  content: "\e91c";
+}
+.icon-Facebook:before {
+  content: "\e91d";
+}
+.icon-Factura:before {
+  content: "\e91f";
+}
+.icon-FlechaDerecha:before {
+  content: "\e920";
+}
+.icon-FlechaIzquierda:before {
+  content: "\e921";
+}
+.icon-Garantizado:before {
+  content: "\e922";
+}
+.icon-GastosActivos:before {
+  content: "\e923";
+}
+.icon-Gps:before {
+  content: "\e924";
+}
+.icon-Guardar:before {
+  content: "\e925";
+  color: #0091ea;
+}
+.icon-Home:before {
+  content: "\e926";
+}
+.icon-Impresora:before {
+  content: "\e927";
+  color: #0091ea;
+}
+.icon-Instagram:before {
+  content: "\e928";
+}
+.icon-Lapiz:before {
+  content: "\e929";
+}
+.icon-Like:before {
+  content: "\e92a";
+}
+.icon-LlavesHerramientas:before {
+  content: "\e92b";
+}
+.icon-Lupa:before {
+  content: "\e92c";
+}
+.icon-Maletin:before {
+  content: "\e92d";
+}
+.icon-MensajeCelular:before {
+  content: "\e92e";
+}
+.icon-Menu:before {
+  content: "\e92f";
+}
+.icon-Negativo:before {
+  content: "\e930";
+}
+.icon-NotaMusical:before {
+  content: "\e931";
+}
+.icon-Observacion:before {
+  content: "\e932";
+}
+.icon-Papelera:before {
+  content: "\e933";
+}
+.icon-Power:before {
+  content: "\e934";
+}
+.icon-ServicioAlCliente .path1:before {
+  content: "\e936";
+  color: rgb(239, 207, 117);
+}
+.icon-ServicioAlCliente .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ServicioAlCliente .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ServicioAlCliente .path4:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ServicioAlCliente .path5:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ServicioAlCliente .path6:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-SignoPeso:before {
+  content: "\e93c";
+}
+.icon-Sobre:before {
+  content: "\e93d";
+  color: #0091ea;
+}
+.icon-SobreCerrado:before {
+  content: "\e93e";
+}
+.icon-Time:before {
+  content: "\e93f";
+}
+.icon-TiroAlBlanco:before {
+  content: "\e940";
+}
+.icon-Trato:before {
+  content: "\e941";
+}
+.icon-Usuario:before {
+  content: "\e942";
+}
+.icon-Velocimetro:before {
+  content: "\e943";
+}
+.icon-Whatsapp:before {
+  content: "\e944";
+}
+.icon-Yolenith:before {
+  content: "\e945";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-pencil2:before {
+  content: "\e906";
+}
+.icon-mic:before {
+  content: "\e91e";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-Save:before {
+  content: "\e962";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-clipboard:before {
+  content: "\e9b8";
+}

@@ -10,7 +10,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
 //Importo las rutas que voy a utilizar en el servidor
-const indexRutas = require('./rutas/index_rutas');
 const empleadosRutas = require('./rutas/empleado_rutas');
 
 //Configuro mi carpeta publica la cual va obtener todos los archivos estaticos como estilos css, archivos js y imagenes
